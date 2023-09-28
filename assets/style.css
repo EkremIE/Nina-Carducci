@@ -53,8 +53,8 @@ body {
 .picture.left::before {
 	content: ' ';
 	background-color: #E5975F;
-	width: 374px;
-	height: 329px;
+	max-widthwidth: 100%;
+	height: auto;
 	position: absolute;
 	bottom: 0;
 	left: 0;
@@ -80,6 +80,7 @@ body {
 	font-size: 30px;
 }
 .about-me__introduction {
+	font-size: 100%;
 	font-family: 'Spectral';
 	font-weight: 800;
 	font-style: italic;
@@ -126,6 +127,8 @@ body {
 	object-fit: cover;
 	padding: .5em;
 }
+
+
 .mg-prev, .mg-next {
 	width: 30px;
 	height: 30px;
